@@ -1,7 +1,13 @@
+import java.util.Scanner;
+import javax.swing.JOptionPane;
+
 public class Main{
   public static void main(String[] args){
-    System.out.println("hello");
-    long num = 2222222222222222222L;
-    System.out.print("this is it: " + " //");
+
+    String name = JOptionPane.showInputDialog("enter your name: ");
+    
+    int age = Integer.parseInt(JOptionPane.showInputDialog("enter your age"));
+    
+    JOptionPane.showMessageDialog(null, "name : " + name + "\n" + "age : " + age);;
   }
 }
