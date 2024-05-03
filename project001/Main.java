@@ -8,6 +8,6 @@ public class Main{
     
     int age = Integer.parseInt(JOptionPane.showInputDialog("enter your age"));
     
-    JOptionPane.showMessageDialog(null, "name : " + name + "\n" + "age : " + age);;
+    JOptionPane.showMessageDialog(null, "name : " + name + "\n" + "age : " + age);
   }
 }
