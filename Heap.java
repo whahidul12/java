@@ -29,5 +29,14 @@ public class Heap {
     System.out.println(foods);
     System.out.println(cars);
     System.out.println(allin);
+
+    niovim lazyvim = new niovim();
+
+    lazyvim.display();
+    lazyvim.flag();
+    System.out.println(lazyvim.area);
+    System.out.println(lazyvim.country);
+    System.out.println(lazyvim.freedom);
+
   }
 }
