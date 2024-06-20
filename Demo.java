@@ -7,6 +7,7 @@ class Demo {
         System.out.println(mnb);
 
     }
+}
 
 class Cal {
     public int ad(int a, int b) {
