@@ -6,16 +6,7 @@ class Demo {
         int mnb = neo.ad(num1, num2);
         System.out.println(mnb);
 
-        switch (args) {
-            case value:
-
-                break;
-
-            default:
-                break;
-        }
     }
-}
 
 class Cal {
     public int ad(int a, int b) {
