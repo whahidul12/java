@@ -1,17 +1,10 @@
 class Demo {
-    public static void main(String[] args) {
-        int num1 = 5;
-        int num2 = 4;
-        Cal neo = new Cal();
-        int mnb = neo.ad(num1, num2);
-        System.out.println(mnb);
+  Demo() {
+  }
 
-    }
-}
-
-class Cal {
-    public int ad(int a, int b) {
-        int r = a + b;
-        return r;
-    }
+  public static void main(String[] var0) {
+    String var1 = new String("hello");
+    int var2 = var1.length();
+    System.out.println(var2);
+  }
 }
