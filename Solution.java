@@ -1,19 +1,31 @@
-import java.util.Scanner;
+class Human {
+  private int age;
+  private String name;
+  private boolean alive;
+  private String aliveState;
+
+  public Human() {
+
+  }
+
+  public void isAlive() {
+    if (alive) {
+      this.aliveState = "alive";
+    }
+  }
+
+  public String getInfo() {
+    System.out.println("his name is " + name + ".");
+    System.out.println("he is " + age + "years old.");
+    System.out.println("and he is " + aliveState);
+  }
+
+}
 
 public class Solution {
 
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        String s = scan.nextLine();
+  public static void main(String[] args) {
 
-        // Write your code here.
+  }
 
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-
-        scan.close();
-    }
 }
