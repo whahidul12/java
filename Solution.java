@@ -6,7 +6,6 @@ class MyOwnExeption extends Exception {
 
 public class Solution {
   public static void main(String[] args) {
-    System.out.println("****************************");
     int x = 10;
     int y = 2;
     int z = 0;
@@ -19,7 +18,6 @@ public class Solution {
     } catch (MyOwnExeption e) {
       System.out.println(">>> " + e);
     }
-    System.out.println("****************************");
     System.out.println(z);
   }
 
