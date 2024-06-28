@@ -1,16 +1,26 @@
-public class Solution {
-  public static void main(String[] args) throws ArithmeticException {
-    System.out.println("****************************");
-    try {
-      int x = 10;
-      int y = 0;
-      int z = x / y;
-      throw new ArithmeticException("in throw...");
+class MyOwnExeption extends Exception {
+  public MyOwnExeption(String note) {
+    super(note);
+  }
+}
 
-    } catch (ArithmeticException e) {
+public class Solution {
+  public static void main(String[] args) {
+    System.out.println("****************************");
+    int x = 10;
+    int y = 2;
+    int z = 0;
+    try {
+      z = x / y;
+      if (y == 2) {
+        throw new MyOwnExeption("/ by default...");
+      }
+
+    } catch (MyOwnExeption e) {
       System.out.println(">>> " + e);
     }
     System.out.println("****************************");
+    System.out.println(z);
   }
 
 }
